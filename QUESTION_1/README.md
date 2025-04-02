@@ -67,10 +67,10 @@ python train_speaker_identifier.py --batch_size 8 --epochs 20 --learning_rate 1e
 
 ```bash
 # Evaluate on VoxCeleb1
-python evaluate.py --model_path path/to/checkpoint --dataset voxceleb1
+python evaluate_speaker_identifier.py --model_path path/to/checkpoint --dataset voxceleb1
 
 # Evaluate on VoxCeleb2
-python evaluate.py --model_path path/to/checkpoint --dataset voxceleb2
+python evaluate_speaker_identifier.py --model_path path/to/checkpoint --dataset voxceleb2
 
 # Run the evaluation on test speakers (51-100)
 python evaluate_separation.py --vox2_dir /path/to/vox2mixed --model_path checkpoints/best_model.pt --output_dir separation_results --num_mixtures 100 --train_eval test
@@ -94,7 +94,7 @@ python evaluate_separation.py --vox2_dir /path/to/vox2mixed --model_path checkpo
 │   ├── metrics.py             # Evaluation metrics
 │   └── plotting.py            # Plotting utilities
 ├── train.py                   # Training script
-├── evaluate.py
+├── evaluate_speaker_identifier.py
 ├── evaluate_separation.py                 # Evaluation script
 └── requirements.txt           # Dependencies
 ```
