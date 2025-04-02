@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 ```bash
 # Fine-tune WavLM with LoRA on VoxCeleb2
-python train.py --batch_size 8 --epochs 20 --learning_rate 1e-4
+python train_speaker_identifier.py --batch_size 8 --epochs 20 --learning_rate 1e-4
 ```
 
 ### Evaluation
