@@ -93,7 +93,7 @@ python evaluate_separation.py --vox2_dir /path/to/vox2mixed --model_path checkpo
 │   ├── audio.py               # Audio processing utilities
 │   ├── metrics.py             # Evaluation metrics
 │   └── plotting.py            # Plotting utilities
-├── train.py                   # Training script
+├── train_speaker_identifier.py                   # Training script
 ├── evaluate_speaker_identifier.py
 ├── evaluate_separation.py                 # Evaluation script
 └── requirements.txt           # Dependencies
