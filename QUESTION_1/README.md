@@ -41,12 +41,8 @@ This repository contains code for speaker identification and verification using 
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/speaker-id-wavlm-lora.git
-cd speaker-id-wavlm-lora
-
-# Create a conda environment
-conda create -n speaker-id python=3.8
-conda activate speaker-id
+git clone https://github.com/mitesh-kr/Speech_Understanding_Assignment_2.git 
+cd Speech_Understanding_Assignment_2
 
 # Install requirements
 pip install -r requirements.txt
