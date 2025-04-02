@@ -3,7 +3,10 @@ from utils.metrics import (
     calculate_eer, 
     calculate_tar_at_far, 
     evaluate_verification, 
-    evaluate_identification
+    evaluate_identification,
+compute_sdr_sir_sar,
+compute_pesq,
+
 )
 from utils.plotting import plot_metrics, plot_roc_curve
 
