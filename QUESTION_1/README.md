@@ -96,7 +96,8 @@ python evaluate.py --model_path path/to/checkpoint --dataset voxceleb2
 │   ├── metrics.py             # Evaluation metrics
 │   └── plotting.py            # Plotting utilities
 ├── train.py                   # Training script
-├── evaluate.py                # Evaluation script
+├── evaluate.py
+├── evaluate_separation.py                 # Evaluation script
 └── requirements.txt           # Dependencies
 ```
 
