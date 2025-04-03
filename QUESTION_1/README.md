@@ -74,7 +74,7 @@ python create_mixtures.py --metadata_file /path/to/output/train_voxceleb2_metada
 
 VoxCeleb2 Test
 python create_mixtures.py --metadata_file /path/to/output/test_voxceleb2_metadata.csv --output_dir /path/to/test_mixtures --n_mix 500
-```bash
+```
 
 ### Evaluation
 
