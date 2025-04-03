@@ -63,7 +63,7 @@ pip install -r requirements.txt
 python train_speaker_identifier.py --batch_size 8 --epochs 20 --learning_rate 1e-4
 ```
 
-### Audio Mixting
+### Audio Mixing
 
 
 ```bash
