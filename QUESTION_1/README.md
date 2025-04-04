@@ -28,7 +28,7 @@ This repository contains code for speaker identification and verification using 
 
 | Metric | SDR | SIR | SAR | PESQ |
 |--------|-----|-----|-----|------|
-| Value  | 0.16| 11.92| 6.01| 1.80 |
+| Value  | 3.82| 19.34| 5.19|  1.22|
 
 ### Embedding Quality
 
