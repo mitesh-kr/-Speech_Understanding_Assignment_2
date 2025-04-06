@@ -62,6 +62,10 @@ pip install -r requirements.txt
 ```bash
 # Fine-tune WavLM with LoRA on VoxCeleb2
 python train_speaker_identifier.py --batch_size 8 --epochs 20 --learning_rate 1e-4
+
+#Run trainng on sepeartor + classifer pipeline
+python QUESTION_1/4/train_seperator_identifier.py hparams/sepformer-wavlm-speaker.yaml --data_folder /path/to/data --train_data /path/to/train.csv
+
 ```
 
 ### Audio Mixing
@@ -75,6 +79,8 @@ python create_mixtures.py --metadata_file /path/to/output/train_voxceleb2_metada
 
 VoxCeleb2 Test
 python create_mixtures.py --metadata_file /path/to/output/test_voxceleb2_metadata.csv --output_dir /path/to/test_mixtures --n_mix 500
+
+
 ```
 
 ### Evaluation
@@ -88,6 +94,9 @@ python evaluate_speaker_identifier.py --model_path path/to/checkpoint --dataset 
 
 # Run the evaluation on test speakers (51-100)
 python evaluate_separation.py --vox2_dir /path/to/vox2mixed --model_path checkpoints/best_model.pt --output_dir separation_results --num_mixtures 100 --train_eval test
+
+#Run sepeartion of mixed audios on test data
+python QUESTION_1/4/evaluation.py hparams/sepformer-wavlm-speaker.yaml --test_data /path/to/test.csv
 ```
 
 ## Project Structure
