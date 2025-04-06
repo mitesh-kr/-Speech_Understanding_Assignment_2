@@ -15,25 +15,25 @@ This repository contains code for speaker identification and verification using 
 ## SepFormer + WAVLM 
 Training Process
 
--Joint Task Learning: Simultaneously trains speech separation and speaker classification in a unified framework.
+- Joint Task Learning: Simultaneously trains speech separation and speaker classification in a unified framework.
 
--Dual Architecture: Leverages SepFormer for source separation and WavLM for speaker embeddings.
+- Dual Architecture: Leverages SepFormer for source separation and WavLM for speaker embeddings.
 
--Efficient Fine-tuning: Uses LoRA (Low-Rank Adaptation) to fine-tune WavLM with minimal parameters.
+- Efficient Fine-tuning: Uses LoRA (Low-Rank Adaptation) to fine-tune WavLM with minimal parameters.
 
--Improved Recognition: Implements ArcFace loss for enhanced speaker discrimination.
+- Improved Recognition: Implements ArcFace loss for enhanced speaker discrimination.
 
--Data Augmentation: Applies speed perturbation to increase model robustness.
+- Data Augmentation: Applies speed perturbation to increase model robustness.
 
--Adaptive Learning: Features automatic learning rate adjustment based on validation performance.
+- Adaptive Learning: Features automatic learning rate adjustment based on validation performance.
 
--Comprehensive Logging: Tracks separation quality (SI-SNR, SDR) and classification accuracy metrics.
+- Comprehensive Logging: Tracks separation quality (SI-SNR, SDR) and classification accuracy metrics.
 
--Checkpointing: Automatically saves best models based on validation metrics.
+- Checkpointing: Automatically saves best models based on validation metrics.
 
--Mixed Precision: Supports FP16 training for improved computational efficiency.
+- Mixed Precision: Supports FP16 training for improved computational efficiency.
 
--Separation Loss: Uses scale-invariant signal-to-noise ratio (SI-SNR) as primary separation metric
+- Separation Loss: Uses scale-invariant signal-to-noise ratio (SI-SNR) as primary separation metric
 
 
 ## Results
