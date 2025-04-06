@@ -28,9 +28,10 @@ This repository contains code for speaker identification and verification using 
 ### Model Evaluation Metrics
 Refer to this file for each datapoint evaluation result [link](https://github.com/mitesh-kr/Speech_Understanding_Assignment_2/blob/02bfe36988f9582444c187b444f3fd3035f5fdc4/QUESTION_1/results/evaluation_test.csv)
 
-| Metric | SDR | SIR | SAR | PESQ |
-|--------|-----|-----|-----|------|
-| Value  | 3.82| 19.34| 5.19|  1.22|
+| Model | Metric | SDR | SIR | SAR | PESQ |
+|-------|--------|-----|-----|-----|------|
+| SepFormer | Value | 3.82 | 19.34 | 5.19 | 1.22 |
+| SepFormer+WavLM | Value | 4.10 | 20.03 | 5.37 | 1.35 |
 
 ### Embedding Quality
 
