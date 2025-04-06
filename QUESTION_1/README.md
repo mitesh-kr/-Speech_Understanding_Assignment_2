@@ -1,4 +1,4 @@
-# Speaker Identification with WavLM-LoRA and ArcFace
+# Speaker Separation and Identification
 
 This repository contains code for speaker identification and verification using a WavLM base model with LoRA (Low-Rank Adaptation) fine-tuning and ArcFace loss. The system is trained on the VoxCeleb2 dataset and evaluated on both VoxCeleb1 and VoxCeleb2. The second model is novel pipeline approach to combine the speaker identification model WALVM base large Base model along with the SepFromer model to perform speaker separation with the speaker identification model and speech enhancement with the SepFormer model. Finetune/Train this new pipeline on the train set of the created multi-speaker scenario dataset create by mixing of VOX2 data points to perform speech enhancement of each speaker in the multi-speaker dataset. 
  
