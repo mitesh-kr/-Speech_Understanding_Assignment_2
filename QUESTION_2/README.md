@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/8d358d86-1af4-49b2-a3f9-ce1bda526944)# MFCC Feature Extraction and Comparative Analysis of Indian Languages
-
 ## Project Overview
 This project focuses on extracting Mel-Frequency Cepstral Coefficients (MFCC) from audio samples of different Indian languages and using these features to build a language classification model. The implementation covers both feature extraction and the development of a neural network classifier that can identify languages based on their acoustic characteristics.
 
