@@ -1,4 +1,4 @@
-# MFCC Feature Extraction and Comparative Analysis of Indian Languages
+![image](https://github.com/user-attachments/assets/8d358d86-1af4-49b2-a3f9-ce1bda526944)# MFCC Feature Extraction and Comparative Analysis of Indian Languages
 
 ## Project Overview
 This project focuses on extracting Mel-Frequency Cepstral Coefficients (MFCC) from audio samples of different Indian languages and using these features to build a language classification model. The implementation covers both feature extraction and the development of a neural network classifier that can identify languages based on their acoustic characteristics.
@@ -50,12 +50,15 @@ This project focuses on extracting Mel-Frequency Cepstral Coefficients (MFCC) fr
 ## Repository Structure
 ```
 ├── README.md                   # Project documentation
-├── mfcc_extraction.py          # Code for MFCC feature extraction
-├── visualize_spectrograms.py   # Code for generating and comparing MFCC spectrograms
-├── language_classifier.py      # Implementation of the neural network model
-├── data/                       # Directory for dataset (not included in repo)
-├── features/                   # Extracted MFCC features stored as .npy files
-└── results/                    # Model performance metrics and visualizations
+├── mfcc_feature_extraction.py          # Code for MFCC feature extraction
+├── visualize_mfcc_spectrograms.py   # Code for generating and comparing MFCC spectrograms
+├── model_training.py       # Implementation of the neural network model
+├── spectrograms/                  # Extracted MFCC features stored as .npy files
+└── results/
+    ├── Confusion_Matrix.png    # Confusion matrix showing classification performance
+    ├── mfcc_mean.png           # Visualization of mean MFCC features
+    ├── mfcc_variance.png       # Visualization of MFCC feature variance
+    └── training_loss_accuracy_graphs.png  # Training progress visualizations            
 ```
 
 ## Requirements
@@ -63,7 +66,7 @@ This project focuses on extracting Mel-Frequency Cepstral Coefficients (MFCC) fr
 - NumPy
 - Pandas
 - Librosa
-- TensorFlow/Keras
+- PyTorch
 - Matplotlib
 - Scikit-learn
 
