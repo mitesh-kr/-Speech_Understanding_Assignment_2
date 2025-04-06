@@ -9,20 +9,17 @@ This repository contains the implementation for two speech processing assignment
 │   └── README.md               # Detailed documentation for Question 1
 └── QUESTION_2/                 # MFCC Feature Extraction for Indian Languages
     ├── README.md               # Detailed documentation for Question 2
-    └── results/
-        ├── Confusion_Matrix.png
-        ├── mfcc_mean.png
-        ├── mfcc_variance.png
-        └── training_loss_accuracy_graphs.png
+A detailed explanation can be seen in the individual readme file.
 ```
 
 ## Questions Overview
 
 ### Question 1: Speech Enhancement
-- Speaker verification with pretrained models
-- Fine-tuning using LoRA and ArcFace loss
+- Speaker verification with pre-trained models
+- Fine-tuning WAVLm using LoRA and ArcFace loss
 - Multi-speaker separation using SepFormer
 - Novel pipeline for speaker separation and enhancement
+- Evaluate and compare the matrices of separated speech using these trained models. 
 
 ### Question 2: MFCC Feature Extraction for Indian Languages
 - Feature extraction from 10 Indian languages
