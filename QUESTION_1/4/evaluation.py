@@ -13,7 +13,7 @@ import torch
 import logging
 from hyperpyyaml import load_hyperpyyaml
 import speechbrain as sb
-from train import SeparationAndClassification, dataio_prep
+from train_seperator_identifier.py import SeparationAndClassification, dataio_prep
 
 logger = logging.getLogger(__name__)
 
