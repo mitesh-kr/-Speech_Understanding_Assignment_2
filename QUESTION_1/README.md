@@ -134,7 +134,8 @@ python QUESTION_1/4/evaluation.py hparams/sepformer-wavlm-speaker.yaml --test_da
 ├── datasets/
 │   ├── __init__.py
 │   ├── voxceleb1.py           # VoxCeleb1 dataset loader
-│   └── voxceleb2.py           # VoxCeleb2 dataset loader
+│   └── voxceleb2.py
+    └── train_mixed_source_class.csv            # VoxCeleb2 dataset loader
 ├── models/
 │   ├── __init__.py
 │   ├── arcface.py             # ArcFace loss implementation
@@ -143,10 +144,16 @@ python QUESTION_1/4/evaluation.py hparams/sepformer-wavlm-speaker.yaml --test_da
 │   ├── __init__.py
 │   ├── audio.py               # Audio processing utilities
 │   ├── metrics.py             # Evaluation metrics
-│   └── plotting.py            # Plotting utilities
-├── train_speaker_identifier.py                   # Training script
+│   └── plotting.py
+|── separatior_identifier/
+│   ├── sep_classifier_config.yaml  # contan all training congiguration
+│   ├── wavlm_lora_arc.py             #Sepearted classifier only for this combined  model
+│   ├── train_seperator_identifier.py # Train this novel pipeline
+│   ├── evaluation.py                # Evaluate on test data
+|   ├── slurm.sh
+├── train_speaker_identifier.py       # Training script
 ├── evaluate_speaker_identifier.py
-├── evaluate_separation.py                 # Evaluation script
+├── evaluate_separation.py           # Evaluation script
 └── requirements.txt           # Dependencies
 ```
 
