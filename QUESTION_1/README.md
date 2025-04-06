@@ -40,6 +40,8 @@ Refer to this file for each datapoint evaluation result [link](https://github.co
 | Pre-trained WavLM | 17.73% | - |
 | Fine-tuned WavLM | 38.50% | 6.83% |
 
+Seperato + wavlm results and [checkpoints](https://drive.google.com/drive/folders/1SU5g7ZxhD_uw4IVw4qLFKt2pv98XOsgk?usp=sharing)
+
 ## Installation
 
 ```bash
