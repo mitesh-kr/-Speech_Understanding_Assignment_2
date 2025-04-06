@@ -71,7 +71,7 @@ Nothe that all training, evaluation , wavlm classifer and config file should be 
 1. Download VoxCeleb1 dataset: [VoxCeleb1](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html)
 2. Download VoxCeleb2 dataset: [VoxCeleb2](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html)
 3. Update the paths in `config.py` to point to your datasets
-4. For training of seperator and classifier together use this file [prepared CSV file](QUESTION_1/ data_preparation/train_mixed_source_class.csv)
+4. For training of seperator and classifier together use this file [prepared CSV file]([QUESTION_1/ data_preparation/train_mixed_source_class.csv](https://github.com/mitesh-kr/Speech_Understanding_Assignment_2/blob/213946bb788c8de81cdb0d4c8caeffd0d59fc23e/QUESTION_1/%20data_preparation/train_mixed_source_class.csv))
 
 ### Training
 
