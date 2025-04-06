@@ -1,6 +1,6 @@
 # Speaker Identification with WavLM-LoRA and ArcFace
 
-This repository contains code for speaker identification and verification using a WavLM base model with LoRA (Low-Rank Adaptation) fine-tuning and ArcFace loss. The system is trained on the VoxCeleb2 dataset and evaluated on both VoxCeleb1 and VoxCeleb2. Th second model is novel pipelin approach to combine the speaker identification modelHuBERT Base model along with the SepFromer model to perform speaker separation with the speaker identification model and speech enhancement with the SepFormer model. Finetune/Train this new pipeline on the train set of created multi-speaker scenario dataset create by mixing of VOX2 datapoints to perform speech enhancement of each speaker in the multi-speaker dataset. 
+This repository contains code for speaker identification and verification using a WavLM base model with LoRA (Low-Rank Adaptation) fine-tuning and ArcFace loss. The system is trained on the VoxCeleb2 dataset and evaluated on both VoxCeleb1 and VoxCeleb2. The second model is novel pipeline approach to combine the speaker identification model WALVM base large Base model along with the SepFromer model to perform speaker separation with the speaker identification model and speech enhancement with the SepFormer model. Finetune/Train this new pipeline on the train set of the created multi-speaker scenario dataset create by mixing of VOX2 data points to perform speech enhancement of each speaker in the multi-speaker dataset. 
  
 
 ## Features
@@ -26,6 +26,7 @@ This repository contains code for speaker identification and verification using 
 | Identification Accuracy | 67.62% | 88.57% |
 
 ### Model Evaluation Metrics
+Refer to this file for each datapoint evaluation result [link](https://github.com/mitesh-kr/Speech_Understanding_Assignment_2/blob/02bfe36988f9582444c187b444f3fd3035f5fdc4/QUESTION_1/results/evaluation_test.csv)
 
 | Metric | SDR | SIR | SAR | PESQ |
 |--------|-----|-----|-----|------|
