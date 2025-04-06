@@ -47,6 +47,21 @@ cd Speech_Understanding_Assignment_2
 
 # Install requirements
 pip install -r requirements.txt
+
+For seperator + classifer
+git clone https://github.com/speechbrain/speechbrain/
+cd speechbrain
+pip install -r requirements.txt
+pip install -e .
+
+cd recipes/WHAMandWHAMR/
+# Download and replace the separator folder
+# [Download Link](https://drive.google.com/drive/folders/1kOLrP6sj_MnJ1IKjxr9OxgVxOaMUhLXd?usp=sharing)
+Nothe that all training, evaluation , wavlm classifer and config file should be in same directory.
+
+
+
+
 ```
 
 ## Usage
