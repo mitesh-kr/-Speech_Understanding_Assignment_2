@@ -33,14 +33,14 @@ Refer to this file for each datapoint evaluation result [link](https://github.co
 | SepFormer | Value | 3.82 | 19.34 | 5.19 | 1.22 |
 | SepFormer+WavLM | Value | 4.10 | 20.03 | 5.37 | 1.35 |
 
-### Embedding Quality
-on Vox2 dataset
+### Verificationa and Identification result
+on Vox2 enhanced speech done by pre-trained  SepFormer model
 | Model | Embedding Identification Accuracy | Classification Identification Accuracy |
 |-------|-----------------------------------|----------------------------------------|
 | Pre-trained WavLM | 17.73% | - |
 | Fine-tuned WavLM | 38.50% | 56.83% |
 
-on Vox2 sepearted dataset obtained by usng separator + wavlm model
+on Vox2 enhanced speech by usng separator + wavlm model
 | Model | Embedding Identification Accuracy | Classification Identification Accuracy |
 |-------|-----------------------------------|----------------------------------------|
 | Pre-trained WavLM | 34.73% | - |
