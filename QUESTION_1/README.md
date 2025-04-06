@@ -149,18 +149,7 @@ python QUESTION_1/4/evaluation.py hparams/sepformer-wavlm-speaker.yaml --test_da
 └── requirements.txt           # Dependencies
 ```
 
-## Citation
 
-If you use this code for your research, please cite:
-
-```
-@inproceedings{your-paper,
-  title={Your Paper Title},
-  author={Your Name and Coauthors},
-  booktitle={Proceedings of ...},
-  year={2023}
-}
-```
 
 ## License
 
@@ -171,3 +160,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [HuggingFace Transformers](https://github.com/huggingface/transformers) for providing WavLM implementation
 - [PEFT](https://github.com/huggingface/peft) for LoRA implementation
 - VoxCeleb datasets
+- [Audio mixing](https://github.com/JorisCos/LibriMix/blob/master/generate_librimix.sh)
+- [SepFormer](https://huggingface.co/speechbrain/sepformer-whamr)
