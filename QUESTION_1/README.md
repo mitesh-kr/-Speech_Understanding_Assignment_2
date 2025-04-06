@@ -70,7 +70,7 @@ on Vox2 enhanced speech by using separator + wavlm model
 | Model | Embedding Identification Accuracy | Classification Identification Accuracy |
 |-------|-----------------------------------|----------------------------------------|
 | Pre-trained WavLM | 34.73% | - |
-| Fine-tuned WavLM | 78.50% | 85.83% |
+| Fine-tuned WavLM | 78.50% | 70.83% |
 
 Seperato + wavlm results and [checkpoints](https://drive.google.com/drive/folders/1SU5g7ZxhD_uw4IVw4qLFKt2pv98XOsgk?usp=sharing)
 
