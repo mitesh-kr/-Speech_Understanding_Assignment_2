@@ -34,11 +34,17 @@ Refer to this file for each datapoint evaluation result [link](https://github.co
 | SepFormer+WavLM | Value | 4.10 | 20.03 | 5.37 | 1.35 |
 
 ### Embedding Quality
-
+on Vox2 dataset
 | Model | Embedding Identification Accuracy | Classification Identification Accuracy |
 |-------|-----------------------------------|----------------------------------------|
 | Pre-trained WavLM | 17.73% | - |
-| Fine-tuned WavLM | 38.50% | 6.83% |
+| Fine-tuned WavLM | 38.50% | 56.83% |
+
+on Vox2 sepearted dataset obtained by usng separator + wavlm model
+| Model | Embedding Identification Accuracy | Classification Identification Accuracy |
+|-------|-----------------------------------|----------------------------------------|
+| Pre-trained WavLM | 34.73% | - |
+| Fine-tuned WavLM | 78.50% | 85.83% |
 
 Seperato + wavlm results and [checkpoints](https://drive.google.com/drive/folders/1SU5g7ZxhD_uw4IVw4qLFKt2pv98XOsgk?usp=sharing)
 
