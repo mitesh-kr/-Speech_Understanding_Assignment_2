@@ -9,6 +9,7 @@ This repository contains code for speaker identification and verification using 
 - ArcFace loss for improved speaker embedding discrimination
 - Speaker verification and identification evaluation
 - Comprehensive metrics including EER, TAR@1%FAR, and accuracy
+- Signal-to-Interference Ratio (SIR), Signal to Artefacts Ratio (SAR), Signal to Distortion Ratio (SDR) and Perceptual Evaluation of Speech Quality (PESQ). 
 
 ## Results
 
